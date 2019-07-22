@@ -1,0 +1,7 @@
+---
+applications:
+- buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
+  host: westfield_poc
+  name: westfield_poc
+  memory: 64M
+  stack: cflinuxfs2
